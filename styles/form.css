@@ -1,0 +1,86 @@
+.form2 {
+    font-family: 'Poppins';
+    padding: 4em;
+    display: flex;
+    flex-direction: column;
+}
+
+.textos-form2 {
+    text-align: center;
+    color: #1A202C;
+}
+
+.textos-form2 h1 {
+    font-size: 37px;
+    font-weight: 700;
+    margin: 0.2em 0;
+}
+
+.textos-form2 p {
+    width: 45%;
+    color: #4A5568;
+    font-size: 14px;
+    margin: 0 auto;
+    line-height: 20px;
+}
+
+.formulario {
+    text-align: center;
+    display: grid;
+    grid-template-areas: 
+    "email1 email2"
+    "subject phone"
+    "message message";
+    width: 60%;
+    margin: 0 auto;
+}
+
+.formulario input {
+    padding: 1em;
+    border: 1px solid #93A2B7;
+    margin: 1em 1em;
+}
+
+.formulario input::placeholder {
+    color: #93A2B7;
+}
+
+.input-formulario2:nth-child(1) {
+    grid-area: email1;
+}
+
+.input-formulario2:nth-child(2) {
+    grid-area: email2;
+}
+
+.input-formulario2:nth-child(3) {
+    grid-area: subject;
+}
+
+.input-formulario2:nth-child(4) {
+    grid-area: phone;
+}
+
+.input-formulario2:nth-child(5) {
+    grid-area: message;
+    padding-bottom: 14em;
+}
+
+.botao-form {
+    border: 1px solid linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );;
+    background-image: linear-gradient( 109.6deg, rgba(156,252,248,1) 11.2%, rgba(110,123,251,1) 91.1% );
+    color: white;
+    text-decoration: none;
+    border-radius: 24px;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+}
+
+.botao {
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.botao-form:hover {
+    opacity: 0.7;
+}

@@ -1,0 +1,15 @@
+.rede-social-logo {
+    height: 20px;
+    width: 20px;
+    padding: 0 0.5em;
+}
+
+.titulo-principal {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.bluecheck {
+    width: 20px;
+    height: 20px;
+}

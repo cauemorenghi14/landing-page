@@ -1,0 +1,52 @@
+.testimonial {
+    font-family: 'Poppins';
+    background-color: white;
+    padding: 5em;
+}
+
+.imagem-testimonial img{
+    border-radius: 80px;
+    width: 25%;
+}
+
+.p-testimonial {
+    color: #4A5568;
+    font-size: 12px;
+    padding: 2em 0;
+    line-height: 1.5em;
+}
+
+.quadrados-testimonial {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.lista-quadrados-testimonial {
+    background-color: white;
+    text-align: center;
+    padding: 2em;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin: 0 1em;
+}
+
+.nome-testimonial {
+    padding-top: 1.5em;
+    font-weight: 500;
+}
+
+.nome-testimonial p {
+    font-size: 12px;
+    color: #4A5568;
+    padding-top: 1em;
+}
+
+.p1-testimonial {
+    width: 40%;
+    color: #4A5568;
+    font-size: 14px;
+    margin: 0 auto;
+    line-height: 20px;
+    margin-bottom: 2em;
+}

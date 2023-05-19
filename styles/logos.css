@@ -1,0 +1,14 @@
+.logos {
+    background-color: #F7FAFC;
+}
+
+.lista-logos {
+    display: flex;
+    justify-content: center;
+    padding: 3em;
+}
+
+.elemento-logo:nth-child(1),
+.elemento-logo:nth-child(2) {
+    margin: 0 1em;
+}

@@ -1,0 +1,28 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #C5E6F9;
+    padding: 2em;
+}
+
+.menus {
+    font-family: 'Poppins';
+    align-self: center;
+}
+
+.menu__item {
+    margin: 0 1em;
+}
+
+.menus a {
+    text-decoration: none;
+    color: #1A202C;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.menus a:hover {
+    color: #3182CE;
+    border-bottom: solid 1px #3182CE;
+}
+

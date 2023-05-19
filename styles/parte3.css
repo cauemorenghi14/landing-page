@@ -1,0 +1,81 @@
+.parte3 {
+    font-family: 'Poppins';
+    display: flex;
+    padding: 4em;
+    align-items: center;
+}
+
+.lista-parte3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "startup saas"
+    "agency applanding";
+}
+
+.elemento1-lista-pt3 h1,
+.elemento2-lista-pt3 h1,
+.elemento3-lista-pt3 h1,
+.elemento4-lista-pt3 h1 {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.elemento1-lista-pt3 p,
+.elemento2-lista-pt3 p,
+.elemento3-lista-pt3 p,
+.elemento4-lista-pt3 p {
+    line-height: 22px;
+    font-size: 12px;
+}
+
+.elemento1-lista-pt3 {
+    grid-area: startup;
+}
+
+.elemento2-lista-pt3 {
+    grid-area: saas;
+}
+
+.elemento3-lista-pt3 {
+    grid-area: agency;
+}
+
+.elemento4-lista-pt3 {
+    grid-area: applanding;
+}
+
+
+.imagem-parte3 img{
+    width: 25em;
+}
+
+.titulo-parte3 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #1A202C;
+}
+
+.p-parte3 {
+    font-size: 14px;
+    color: #4A5568;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    line-height: 20px;
+}
+
+.lista-parte3 p {
+    font-size: 14px;
+    color: #4A5568;
+    margin-right: 2em;
+}
+
+.lista-parte3 h1 {
+    margin: 1em 0;
+}
+
+.parte3-1 {
+    width: 50%;
+    margin: 0 auto;
+}

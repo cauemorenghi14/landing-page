@@ -1,0 +1,80 @@
+.parte5 {
+    display: flex;
+    font-family: 'Poppins';
+    color: white;
+}
+
+.texto-parte5 {
+    background-color: #3182CE;
+    width: 50vw;
+    height: 50vh;
+    text-align: center;
+}
+
+.imagem-parte5 img{
+    width: 50vw;
+    height: 50vh;
+}
+
+.titulo-parte5 {
+    font-size: 30px;
+    width: 60%;
+    word-spacing: 3px;
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+
+.p-parte5 {
+    font-size: 14px;
+    width: 65%;
+    line-height: 1.5em;
+    margin: 0 auto;
+}
+
+/*
+.input-parte5 {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 24px;
+    padding: 1.2em;
+    width: 50%;
+    font-size: 12px;
+} 
+*/
+
+.texto-parte5 h1{
+    padding-top: 2em;
+}
+
+.texto-parte5 p {
+    padding: 2em 0;
+}
+
+.texto-parte5 span {
+    border: 1px solid #3182CE;
+    background-color: white;
+    border-radius: 24px;
+    padding: 0.8em 0.4em;
+}
+
+.texto-parte5 span input {
+    background-color: white;
+    border: transparent;
+}
+
+.texto-parte5 span button {
+    background-color: #3182CE;
+    border: transparent;
+    border-radius: 24px;
+    color: white;
+    padding: 1em 3em;
+}
+
+.input-parte5::placeholder {
+    position: relative;
+    left: 0.8em;
+}
+
+.texto-parte5 span button:hover {
+    background-color: #98bcde;
+}
